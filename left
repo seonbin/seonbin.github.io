@@ -1,0 +1,121 @@
+<html>
+<body>
+<div class="category_wrap">
+			<div class="category_total cate_total_2">
+	<a href="#sectionExplodeLayer" class="view_all_category" onmousedown="_trkEventLog('ca_카테고리펼쳐보기_list');">
+		<strong class="btn_text">카테고리 펼쳐보기</strong>
+	</a>
+</div>
+
+<div id="sectionExplodeLayer" class="category_hover_layer2" style="display:none;">
+	<h2 class="screen_out">카테고리 펼쳐보기 목록</h2>
+	<a href="#" class="btn_category_close">카테고리 닫기</a>
+	<div class="main_lnb">
+		<ul class="nav_list">
+			
+						<li class="" group-code="10" section-name="가전/TV/디카">
+							<a href="#" class="nav_menu02" onclick="return false;">가전/TV/디카<span class="category_arw">카테고리로 이동 </span></a>
+						</li>
+					
+						<li class="" group-code="11" section-name="컴퓨터/노트북">
+							<a href="#" class="nav_menu03" onclick="return false;">컴퓨터/노트북<span class="category_arw">카테고리로 이동 </span></a>
+						</li>
+					
+						<li class="" group-code="12" section-name="태블릿/모바일">
+							<a href="#" class="nav_menu04" onclick="return false;">태블릿/모바일<span class="category_arw">카테고리로 이동 </span></a>
+						</li>
+					
+						<li class="menu_top_line" group-code="13" section-name="아웃도어/스포츠/골프">
+							<a href="#" class="nav_menu05" onclick="return false;">아웃도어/스포츠/골프<span class="category_arw">카테고리로 이동 </span></a>
+						</li>
+					
+						<li class="" group-code="14" section-name="자동차/용품/공구">
+							<a href="#" class="nav_menu06" onclick="return false;">자동차/용품/공구<span class="category_arw">카테고리로 이동 </span></a>
+						</li>
+					
+						<li class="" group-code="15" section-name="가구/침구/LED">
+							<a href="#" class="nav_menu07" onclick="return false;">가구/침구/LED<span class="category_arw">카테고리로 이동 </span></a>
+						</li>
+					
+						<li class="menu_top_line" group-code="16" section-name="유아/완구/식품">
+							<a href="#" class="nav_menu08" onclick="return false;">유아/완구/식품<span class="category_arw">카테고리로 이동 </span></a>
+						</li>
+					
+						<li class="" group-code="17" section-name="생활/주방/건강">
+							<a href="#" class="nav_menu09" onclick="return false;">생활/주방/건강<span class="category_arw">카테고리로 이동 </span></a>
+						</li>
+					
+						<li class="" group-code="18" section-name="패션/잡화/화장품">
+							<a href="#" class="nav_menu10" onclick="return false;">패션/잡화/화장품<span class="category_arw">카테고리로 이동 </span></a>
+						</li>
+					
+						<li class="menu_top_line" group-code="19" section-name="사무/취미/게임">
+							<a href="#" class="nav_menu11" onclick="return false;">사무/취미/게임<span class="category_arw">카테고리로 이동 </span></a>
+						</li>
+					
+						<li class="" group-code="20" section-name="여행/항공/호텔">
+							<a href="#" class="nav_menu12" onclick="return false;">여행/항공/호텔<span class="category_arw">카테고리로 이동 </span></a>
+						</li>
+							</ul>
+	</div>
+
+	<div class="category_scroll_area"></div>
+</div><div class="category_nav">
+	<div class="nav_head">
+		<h3 class="cat_name_main">디지털 완제품</h3>
+	</div>
+	<div class="cat_list_box">
+		<ul class="cat_list">
+		
+					<li class="main_item">
+						<a href="/list/?cate=112758" class="main_link">노트북</a>
+					<div class="sub_cat_wrap"><ul class="sub_cat_list"><li class="sub_item "><a href="/list/?cate=11316920" tabindex="0">표준노트북</a></li><li class="sub_item "><a href="/list/?cate=11325813" tabindex="0">2018년 신제품</a></li><li class="sub_item "><a href="/list/?cate=11324912" tabindex="0">8세대쿼드/헥사코어</a></li><li class="sub_item "><a href="/list/?cate=1131320" tabindex="0">대학생/사무용</a></li><li class="sub_item "><a href="/list/?cate=11325218" tabindex="0">배틀그라운드 추천</a></li><li class="sub_item "><a href="/list/?cate=113778" tabindex="0">게임용</a></li><li class="sub_item "><a href="/list/?cate=113923" tabindex="0">70만원 이하</a></li><li class="sub_item "><a href="/list/?cate=1131318" tabindex="0">가벼운 무게</a></li><li class="sub_item "><a href="/list/?cate=11317599" tabindex="0">애플 맥북</a></li><li class="sub_item "><a href="/list/?cate=113780" tabindex="0">그래픽작업</a></li><li class="sub_item "><a href="/list/?cate=113800" tabindex="0">리퍼비시 / 중고</a></li><li class="sub_item "><a href="/list/?cate=11323826" tabindex="0">DPG-Zone 체험</a></li></ul>	</div>
+					</li>
+				
+					<li class="main_item">
+						<a href="/list/?cate=1121021" class="main_link">노트북 주변기기</a>
+					<div class="sub_cat_wrap"><ul class="sub_cat_list"><li class="sub_item "><a href="/list/?cate=11310522" tabindex="0">쿨링용품</a></li><li class="sub_item "><a href="/list/?cate=1134200" tabindex="0">보호용품</a></li><li class="sub_item "><a href="/list/?cate=11324185" tabindex="0">노트북 가방</a></li><li class="sub_item "><a href="/list/?cate=1131050" tabindex="0">어댑터/배터리</a></li><li class="sub_item "><a href="/list/?cate=11310569" tabindex="0">업그레이드 부품</a></li><li class="sub_item "><a href="/list/?cate=11310575" tabindex="0">저장장치</a></li><li class="sub_item "><a href="/list/?cate=11310582" tabindex="0">입력장치</a></li><li class="sub_item "><a href="/list/?cate=1131052" tabindex="0">변환젠더</a></li><li class="sub_item "><a href="/list/?cate=1131081" tabindex="0">케이블용품</a></li><li class="sub_item "><a href="/list/?cate=11326673" tabindex="0">외장그래픽/eGPU</a></li><li class="sub_item "><a href="/list/?cate=1131055" tabindex="0">도킹스테이션</a></li><li class="sub_item "><a href="/list/?cate=11323827" tabindex="0">DPG-Zone 체험</a></li></ul>	</div>
+					</li>
+				
+					<li class="main_item">
+						<a href="/list/?cate=112757" class="main_link">모니터</a>
+					<div class="sub_cat_wrap"><ul class="sub_cat_list"><li class="sub_item "><a href="/list/?cate=11316941" tabindex="0">표준모니터</a></li><li class="sub_item "><a href="/list/?cate=113943" tabindex="0">특가 모니터</a></li><li class="sub_item "><a href="/list/?cate=11319542" tabindex="0">24인치</a></li><li class="sub_item "><a href="/list/?cate=11319543" tabindex="0">27~29인치</a></li><li class="sub_item "><a href="/list/?cate=11319544" tabindex="0">30~39인치</a></li><li class="sub_item "><a href="/list/?cate=11319545" tabindex="0">40인치 이상</a></li><li class="sub_item "><a href="/list/?cate=113947" tabindex="0">4K UHD 이상</a></li><li class="sub_item "><a href="/list/?cate=113948" tabindex="0">게이밍 모니터</a></li><li class="sub_item "><a href="/list/?cate=113946" tabindex="0">커브드 모니터</a></li><li class="sub_item "><a href="/list/?cate=11322966" tabindex="0">전문가용 모니터</a></li><li class="sub_item "><a href="/list/?cate=113976" tabindex="0">모니터 주변기기</a></li><li class="sub_item "><a href="/list/?cate=11323828" tabindex="0">DPG-Zone 체험</a></li></ul>	</div>
+					</li>
+				
+					<li class="main_item now_main_cat">
+						<a href="/list/?cate=112756" class="main_link">브랜드PC</a>
+				
+					</li>
+				
+					<li class="main_item">
+						<a href="/list/?cate=112766" class="main_link">일체형PC</a>
+					<div class="sub_cat_wrap"><ul class="sub_cat_list"><li class="sub_item "><a href="/list/?cate=11317382" tabindex="0">곡면형 모니터</a></li><li class="sub_item "><a href="/list/?cate=1131676" tabindex="0">29형 모니터</a></li><li class="sub_item "><a href="/list/?cate=1131678" tabindex="0">27형 모니터</a></li><li class="sub_item "><a href="/list/?cate=1131681" tabindex="0">24형 모니터</a></li><li class="sub_item "><a href="/list/?cate=1131689" tabindex="0">23형 모니터</a></li><li class="sub_item "><a href="/list/?cate=1131697" tabindex="0">22형 모니터</a></li><li class="sub_item "><a href="/list/?cate=1131699" tabindex="0">20형 이하</a></li><li class="sub_item "><a href="/list/?cate=11316984" tabindex="0">50만원 이하</a></li><li class="sub_item "><a href="/list/?cate=11312488" tabindex="0">운영체제 미포함</a></li><li class="sub_item "><a href="/list/?cate=1131701" tabindex="0">터치스크린</a></li><li class="sub_item "><a href="/list/?cate=11316986" tabindex="0">게임용</a></li><li class="sub_item "><a href="/list/?cate=11316988" tabindex="0">TV수신지원</a></li></ul>	</div>
+					</li>
+				
+					<li class="main_item">
+						<a href="/list/?cate=112767" class="main_link">미니PC/베어본</a>
+					<div class="sub_cat_wrap"><ul class="sub_cat_list"><li class="sub_item "><a href="/list/?cate=1131287" tabindex="0">미니PC</a></li><li class="sub_item "><a href="/list/?cate=1137278" tabindex="0">베어본</a></li><li class="sub_item "><a href="/list/?cate=11311183" tabindex="0">스틱PC</a></li><li class="sub_item "><a href="/list/?cate=1131563" tabindex="0">ZOTAC</a></li><li class="sub_item "><a href="/list/?cate=1131569" tabindex="0">인텔</a></li><li class="sub_item "><a href="/list/?cate=1131573" tabindex="0">GIGABYTE</a></li><li class="sub_item "><a href="/list/?cate=1131305" tabindex="0">APPLE</a></li><li class="sub_item "><a href="/list/?cate=11322869" tabindex="0">인텔 카비레이크</a></li><li class="sub_item "><a href="/list/?cate=1131313" tabindex="0">인텔 스카이레이크</a></li><li class="sub_item "><a href="/list/?cate=11319264" tabindex="0">윈도우10 포함</a></li><li class="sub_item "><a href="/list/?cate=11312490" tabindex="0">윈도우7 포함</a></li><li class="sub_item "><a href="/list/?cate=11319265" tabindex="0">외장그래픽 포함</a></li></ul>	</div>
+					</li>
+				
+					<li class="main_item ">
+						<a href="/list/?cate=112773" class="main_link">서버/워크스테이션</a>
+					<div class="sub_cat_wrap"><ul class="sub_cat_list"><li class="sub_item "><a href="/list/?cate=1131095" tabindex="0">서버</a></li><li class="sub_item "><a href="/list/?cate=1137492" tabindex="0">워크스테이션</a></li></ul>	</div>
+					</li>
+				
+					<li class="main_item">
+						<a href="/list/?cate=11220229" class="main_link">컴퓨터가구</a>
+					<div class="sub_cat_wrap"><ul class="sub_cat_list"><li class="sub_item "><a href="/list/?cate=11320230" tabindex="0">게이밍의자</a></li><li class="sub_item "><a href="/list/?cate=11320231" tabindex="0">컴퓨터의자</a></li><li class="sub_item "><a href="/list/?cate=11320232" tabindex="0">컴퓨터책상</a></li><li class="sub_item "><a href="/list/?cate=11320233" tabindex="0">스탠딩책상</a></li><li class="sub_item "><a href="/list/?cate=11320234" tabindex="0">일자형책상</a></li></ul>	</div>
+					</li>
+				
+					<li class="main_item">
+						<a href="/list/?cate=11220997" class="main_link">게이밍노트북/PC</a>
+					<div class="sub_cat_wrap"><ul class="sub_cat_list"><li class="sub_item "><a href="/list/?cate=11324502" tabindex="0">LG</a></li><li class="sub_item "><a href="/list/?cate=11321720" tabindex="0">한성컴퓨터</a></li><li class="sub_item "><a href="/list/?cate=11324503" tabindex="0">삼성</a></li><li class="sub_item "><a href="/list/?cate=11321724" tabindex="0">HP</a></li><li class="sub_item "><a href="/list/?cate=11323192" tabindex="0">레노버</a></li><li class="sub_item "><a href="/list/?cate=11321722" tabindex="0">ASUS</a></li><li class="sub_item "><a href="/list/?cate=11322598" tabindex="0">Acer</a></li><li class="sub_item "><a href="/list/?cate=11321725" tabindex="0">MSI</a></li><li class="sub_item "><a href="/list/?cate=11321723" tabindex="0">GIGABYTE</a></li><li class="sub_item "><a href="/list/?cate=11327259" tabindex="0">DELL</a></li></ul>	</div>
+					</li>
+										<li class="main_item_banner">
+					<a href="http://plan.danawa.com/info/index.php?nPlanSeq=578" class="main_link" target="_blank"><img src="//img.danawa.com/ui_category/plan/3Depth/3Depth756Top.jpg?t=1523935366" alt="[인포그래픽] 브랜드PC 구매팁 기획전"></a>
+				</li>
+				</ul>
+	</div>
+</div>		</div>
+</body>
+</html>
