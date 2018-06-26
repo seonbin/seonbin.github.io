@@ -1,0 +1,339 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>http://www.blueb.co.kr</title>
+
+    <style type="text/css">
+      .menu {
+        font-family: "돋움", Dotum, "굴림", gulim, Helvetica, AppleGothic, Sans-serif;
+        width: 756px;
+        height: 43px;
+        position: relative;
+        margin: 0;
+        font-size: 11px;
+        text-align: center;
+        margin: 20px 0 30px 0;
+        background: #fff;
+        position: relative;
+        z-index: 100;
+        border: 1px solid #b3b3b3;
+        border-right: 0px;
+      }
+      
+      .menu ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+      }
+      
+      .menu ul li {
+        float: left;
+        border-right: 1px solid #b3b3b3;
+      }
+      
+      .menu ul li a,
+      .menu ul li a:visited {
+        display: block;
+        width: 120px;
+        text-decoration: none;
+        padding: 0 0 0 5px;
+        
+        line-height: 43px;
+        color: #000;
+        background: #ffffff
+      }
+      
+      .menu table {
+        margin: 0;
+        padding: 0;
+        font-size: 1em;
+      }
+      
+      .menu ul li ul {
+        visibility: hidden;
+        position: absolute;
+        height: 29px;
+        top: 43px;
+        left: 0;
+        border: 1px solid #0375e0;
+        text-decoration: underline;
+      }
+      
+      .menu ul li:hover a,
+      .menu ul li a:hover {
+        color: #000000;
+        background: #0375e0;
+        text-decoration: underline;
+      }
+      
+      .menu ul li:hover ul,
+      .menu ul li a:hover ul {
+        visibility: visible;
+        width: 756px;
+        height: 29px;
+        background: #FFFFFF;
+        color: #fff;
+      }
+      
+      .menu ul li:hover ul.right_side li,
+      .menu ul li a:hover ul.right_side li {
+        float: right;
+        border: 10;
+        border-left: 10px solid #eee;
+      }
+      
+      .menu ul li:hover ul.left_side li,
+      .menu ul li a:hover ul.left_side li {
+        float: left;
+        border: 0;
+      }
+      
+      .menu ul li:hover ul li a.sub,
+      .menu ul li a:hover ul li a.sub {
+        background: #bd8d5e url(/data/201012/IJ12912199126032/drop2.gif) bottom right no-repeat;
+        color: #fff;
+      }
+      
+      .menu ul li:hover ul li ul,
+      .menu ul li a:hover ul li a ul {
+        visibility: hidden;
+        position: absolute;
+        left: 0;
+        top: 30px;
+      }
+      
+      .menu ul li:hover ul li a,
+      .menu ul li a:hover ul li a {
+        display: block;
+        background: #f4f4f4;
+        color: #000000;
+        font-size: 11px;
+        text-align: left;
+        text-decoration: none;
+        height: 29px;
+        line-height: 29px;
+      }
+      
+      .menu ul li:hover ul li a:hover,
+      .menu ul li a:hover ul li a:hover {
+        background: #f4f4f4;
+        color: #000;
+        text-decoration: underline;
+      }
+      
+      .menu ul li:hover ul li:hover ul,
+      .menu ul li a:hover ul li a:hover ul {
+        visibility: visible;
+        color: #000;
+        background: #f4f4f4;
+      }
+      
+      .menu ul li:hover ul.right li {
+        float: right;
+      }
+      
+      .menu ul li:hover ul li:hover ul li a,
+      .menu ul li a:hover ul li a:hover ul li a {
+        background: #f4f4f4;
+        color: #000;
+      }
+      
+      .menu ul li:hover ul li:hover ul li a:hover,
+      .menu ul li a:hover ul li a:hover ul li a:hover {
+        background: #bd8d5e;
+        color: #fff;
+      }
+      
+      .menu2 {
+        font-family: "돋움", Dotum, "굴림", gulim, Helvetica, AppleGothic, Sans-serif;
+        width: 756px;
+        height: 43px;
+        position: relative;
+        margin: 0;
+        font-size: 11px;
+        text-align: center;
+        margin: 20px 0 30px 0;
+        background: #fff;
+        position: relative;
+        z-index: 100;
+        border: 1px solid #b3b3b3;
+        border-right: 0px;
+      }
+      
+      .menu2 ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+      }
+      
+      .menu2 ul li {
+        float: left;
+        border-right: 1px solid #b3b3b3;
+      }
+      
+      .menu2 ul li a,
+      .menu2 ul li a:visited {
+        display: block;
+        width: 120px;
+        text-decoration: none;
+        padding: 0 0 0 5px;
+        height: 43px;
+        line-height: 43px;
+        color: #000;
+        background: #ffffff
+      }
+      
+      .menu2 table {
+        margin: 0;
+        padding: 0;
+        font-size: 1em;
+      }
+      
+      .menu2 ul li ul {
+        visibility: hidden;
+        position: absolute;
+        height: 10px;
+        line-height: 10px;
+        top: 43px;
+        left: 0;
+        border: 1px solid #0375e0;
+        text-decoration: underline;
+      }
+      
+      .menu2 ul li ul.fourD {
+        visibility: hidden;
+        position: absolute;
+     
+        top: 43px;
+        left: 0;
+        border: 1px solid #0375e0;
+        border-bottom:0px;
+        text-decoration: underline;
+      }
+      
+       .menu2 ul li ul.fourD2 {
+        visibility: hidden;
+        position: absolute;
+     
+        top: 72px;
+        left: 0;
+        border: 1px solid #0375e0;
+        border-top:0px;
+        text-decoration: underline;
+      }
+      
+      .menu2 ul li:hover a,
+      .menu2 ul li a:hover {
+        color: #000000;
+        background: #0375e0;
+        text-decoration: underline;
+      }
+      
+      .menu2 ul li:hover ul,
+      .menu2 ul li a:hover ul {
+        visibility: visible;
+        width: 756px;
+        height: 29px;
+        background: #FFFFFF;
+        color: #fff;
+      }
+      
+      .menu2 ul li:hover ul.right_side li,
+      .menu2 ul li a:hover ul.right_side li {
+        float: right;
+        border: 0;
+        border-left: 1px solid #eee;
+      }
+      
+      .menu2 ul li:hover ul.left_side li,
+      .menu2 ul li a:hover ul.left_side li {
+        float: left;
+        border: 0;
+      }
+      
+      .menu2 ul li:hover ul li a.sub,
+      .menu2 ul li a:hover ul li a.sub {
+        background: #bd8d5e url(/data/201012/IJ12912199126032/drop2.gif) bottom right no-repeat;
+        color: #fff;
+      }
+      
+      .menu2 ul li:hover ul li ul,
+      .menu2 ul li a:hover ul li a ul {
+        visibility: visible;
+        position: absolute;
+        left: 0;
+        border-top: 0px;
+        top: 30px;
+      }
+      
+      .menu2 ul li:hover ul li a,
+      .menu2 ul li a:hover ul li a {
+        display: block;
+        background: #f4f4f4;
+        color: #000000;
+        font-size: 11px;
+        text-align: left;
+        text-decoration: none;
+        height: 29px;
+        line-height: 29px;
+      }
+      
+      .menu2 ul li:hover ul li a:hover,
+      .menu2 ul li a:hover ul li a:hover {
+        background: #f4f4f4;
+        color: #000;
+        text-decoration: underline;
+      }
+      
+      .menu2 ul li:hover ul li:hover ul,
+      .menu2 ul li a:hover ul li a:hover ul {
+        visibility: visible;
+        color: #000;
+        background: #f4f4f4;
+      }
+      
+      .menu2 ul li:hover ul.right li {
+        float: right;
+      }
+      
+      .menu2 ul li:hover ul li:hover ul li a,
+      .menu2 ul li a:hover ul li a:hover ul li a {
+        background: #f4f4f4;
+        color: #000;
+      }
+      
+      .menu2 ul li:hover ul li:hover ul li a:hover,
+      .menu2 ul li a:hover ul li a:hover ul li a:hover {
+        background: #bd8d5e;
+        color: #fff;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="menu">
+
+      <ul>
+        <li><a href="" target="_blank">커스텀수냉</a>
+        </li>
+        <li><a href=""target="_blank">워크스테이션</a>
+        </li>
+        <li><a href=""target="_blank">제온 CPU PC</a>
+        </li>
+        <li><a href=""target="_blank">코어-X CPU PC</a>
+        </li>
+        <li><a href=""target="_blank">쿼드로 GPU PC</a>
+        </li>
+        <li><a href=""target="_blank">SLI/크로스파이어</a>
+        </li>
+
+      </ul>
+
+    </div
+
+  </body>
+
+</html>
